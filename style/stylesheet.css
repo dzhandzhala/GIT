@@ -3,6 +3,20 @@ body {
 	color: #375e31;
 
 }
+.main {
+	display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    overflow: auto;   
+}
+
+
 .title {
 	color: #375e31;
 	font-size: 60px;
@@ -11,11 +25,6 @@ body {
 }
 .task-name, h3 {
 	text-shadow: 2px 2px 0px rgba(0,0,0,0.2);rgba(0,0,0,0.2);
-}
-
-.menu* {
-	margin: 0;
-	padding: 0;
 }
 
 .link {
@@ -31,18 +40,20 @@ nav ol {
 
 background-color: rgba(230, 255, 226, 0.3); 
 list-style-type: none;
-border: 1px solid #375e31;
 padding: 0;
 width: 790px;
 }
+
 nav ol li {
 
-	border-bottom: 1px solid #375e31;
+	border: 0.3px solid #375e31;
 	padding: 5px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 0;
 }
-nav ol li:last-child {
-  border-bottom: none;
-}
+
 nav ol li a {
 	color: #375e31;
   text-decoration: none;
@@ -80,3 +91,5 @@ ul {
  -moz-transform: scale(1.1);
  -o-transform: scale(1.1);
 }
+ 
+ 

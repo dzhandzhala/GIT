@@ -1,0 +1,72 @@
+body{
+	font-family: 'IBM Plex Serif', serif;
+	color: #375e31;
+
+}
+.title{
+	color: #375e31;
+	font-size: 60px;
+	text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+
+}
+.task-name, h3{
+	text-shadow: 2px 2px 0px rgba(0,0,0,0.2);rgba(0,0,0,0.2);
+}
+
+.menu*{
+	margin: 0;
+	padding: 0;
+}
+
+.link{
+	 text-decoration: none;
+	 color: #1e4218;
+}
+
+ a:hover{
+	text-decoration: underline;
+}
+
+nav ol {
+
+background-color: rgba(230, 255, 226, 0.3); 
+list-style-type: none;
+border: 1px solid #375e31;
+padding: 0;
+width: 790px;
+}
+nav ol li{
+
+	border-bottom: 1px solid #375e31;
+	padding: 5px;
+}
+nav ol li:last-child {
+  border-bottom: none;
+}
+nav ol li a {
+	color: #375e31;
+  text-decoration: none;
+}
+nav ol :hover {
+  text-decoration: underline;
+  background: #375e31;
+  color: #f7f2f2;
+}
+
+.menu > ol li a{
+	display: block;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.img-block {
+	width: 1000px;
+	padding: 5px;
+}
+
+img :hover{
+	 zoom: 1.3; 
+
+}

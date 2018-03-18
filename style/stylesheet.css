@@ -34,7 +34,7 @@ ul {
 .header {
 	 display: flex;
      position: auto; 
-     background-image:url(header.svg); 	  
+     background-image:url(../img/header.svg); 	  
      background-size: cover; 
 }
 
